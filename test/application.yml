@@ -1,0 +1,18 @@
+---
+server:
+  port: 8000
+  servlet.context-path: /api/v1
+application:
+  url: https://www.tru-hrt.com/shop
+  url2: https://gymsupps.org/collections/tru-hrt
+  productPage:
+    productSearch.xpath: //ul[@class='_3g4hn _1DmX_']//h3
+  gymProductPage:
+    passwordField.xpath: //*[@id="entity_password"]
+    password: truhrtsales
+    passwordSubmit.xpath: //input[@id="passwordSubmit"]
+    productSearch.xpath: //a[@class="full-width-link"]
+    nextPage.xpath: //span[@class='icon__fallback-text'][contains(.,"Next page")]//parent::a
+
+    
+ 
